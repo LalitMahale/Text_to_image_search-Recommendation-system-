@@ -2,4 +2,3 @@ sentence-transformers
 streamlit
 torch
 farm-haystack
-
