@@ -18,9 +18,8 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-          HF_NAME: ${{ secrets.HF_NAME }}
-          PROJECT_NAME: ${{ secrets.PROJECT_NAME }}
+
         run: |
           git config --global credential.helper store
-          git remote set-url origin https://{{secrets.HF_NAME}}:${{secrets.HF_TOKEN}}@huggingface.co/spaces/{{secrets.HF_NAME}}/{{secrets.PROJECT_NAME}}
+          git remote set-url origin https://Lalit1997:${{secrets.HF_TOKEN}}@huggingface.co/spaces/Lalit1997/Recommendation-engine
           git push --force origin main
