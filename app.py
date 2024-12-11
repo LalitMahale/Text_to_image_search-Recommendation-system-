@@ -35,4 +35,4 @@ def main():
         st.warning("Please Enter query.......")
 
 if __name__ == "__main__":
-    main()
+    main() 
