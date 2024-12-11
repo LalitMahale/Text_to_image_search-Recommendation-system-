@@ -1,12 +1,13 @@
 ---
-title: {{title}}
-emoji: {{emoji}}
-colorFrom: {{colorFrom}}
-colorTo: {{colorTo}}
-sdk: {{sdk}}
-sdk_version: "{{sdkVersion}}"
+title: Recommendation-engine
+emoji: 😻
+colorFrom: red
+colorTo: purple
+sdk: streamlit
+sdk_version: 1.41.0
 app_file: app.py
 pinned: false
+license: mit
 ---
 
 # Text_to_image_search-Recommendation-system-
