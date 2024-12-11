@@ -13,6 +13,7 @@ class MultiModelSearch:
         images = [
             Document(content= f"{document_directory}/{filename}",content_type="image" )
             for filename in os.listdir(document_directory)
+            if filename.lower().endswith(('jpg', 'jpeg', 'png'))
         ]
 
         self.document_stores.write_documents(images)
